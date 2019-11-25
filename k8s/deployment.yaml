@@ -48,7 +48,7 @@ spec:
           value: _cat/health
         - name: INVENTORY_URL
           value: http://inventory:8080
-        image: ibmcase/bluecompute-catalog:0.6.0
+        image: __IMAGE__
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 6
